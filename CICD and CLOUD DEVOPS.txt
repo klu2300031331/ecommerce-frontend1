@@ -1,0 +1,64 @@
+CI/CD and CLOUD DEVOPS
+----------------------
+
+DevOPs=
+Development (plan, code, test, build)  + Operation (release, deploy, monitor, operate)
+
+-> Collaboration between development and operation teams
+->Automation of software delivery processes
+->Continuous Integration (CL) and Continuous Delivery (CD)
+->Improve quality and speed
+
+->Continuous Integration
+                        - Automatically build and test when there is change in code
+                        - Ensure the bug free code 
+                        - Ensures higher code quality and reduces integration issues
+                        - Packaging and the application (War/ Jar/ Docker image)
+
+-> Continuous Deployment
+                        - Automatically deploy for production
+
+
+Life Cycle:
+----------------------------------------
+code----> Build----> Test----> Deployment
+
+
+Tools:
+----------------------------------------
+Code- Git, GitHub, GitLab, Bitbucket
+Build-War/Jar/Docker images
+Test- Pytest, Junit test, SonarQube
+Deploy- Apache/Tomcat, Docker, Kubernetes
+
+
+Git:
+------
+-Its a version control source code repository
+
+
+
+configure GitHub account :
+-----------------------------
+git config --global user.name " "
+git config --global user.email " "
+-----------------------------------
+git init                                     # initialize a new git repo in current directory
+
+git add .                                    # stage all file to be committed
+
+git commit -m "first commit"                 # commit the staged file with message "first commit"
+
+git branch -M main                           # rename the current branch to 'main'
+
+git remote add origin ----------             # link the local repo to remote
+
+git push -u origin main                      # push the main branch to GitHub
+
+git status
+
+
+
+
+
+
